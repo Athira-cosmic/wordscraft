@@ -3,9 +3,9 @@ body {
 	margin:0;
 	padding:0;
 	width:100%;
-	color:#fff;
+	color:#fc953e;
 	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
-	background:#fa6437 url(../images/main_bg.gif) repeat-x left top;
+	background:#EF366a url(../images/main_bg.gif) repeat-x left top;
 }
 html, .main {
 	padding:0;
@@ -33,7 +33,7 @@ p {
 	padding:0 0 8px 0;
 }
 a {
-	color:#fffffe;
+	color:#F13A31;
 	text-decoration:underline;
 }
 .header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar {
@@ -63,11 +63,11 @@ h1 {
 	text-transform:none;
 }
 h1 a, h1 a:hover {
-	color:#fa5928;
+	color:#f03872;
 	text-decoration:none;
 }
 h1 span {
-	color:#fff;
+	color:#fbc599;
 }
 h1 small {
 	display:block;
@@ -77,7 +77,7 @@ h1 small {
 	line-height:1.2em;
 	letter-spacing:normal;
 	text-transform:none;
-	color:#0e1445;
+	color:#121725;
 }
 .slider {
 	padding:0;
@@ -92,13 +92,13 @@ h1 small {
 	padding:0;
 	float:right;
 	width:auto;
-	color:#fff;
+	color:#fc953e;
 	font-size:13px;
 	line-height:1.5em;
 	font-weight:bold;
 }
 .rss a {
-	color:#fff;
+	color:#f03872;
 	text-decoration:none;
 }
 .rss a:hover {
@@ -142,6 +142,7 @@ h1 small {
 	text-decoration:none;
 	color:#114044;
 	background:#fff;
+
 }
 .content {
 	padding:0;
@@ -173,8 +174,8 @@ h1 small {
 .content .mainbar img.fl {
 	margin:0;
 	padding:0;
-	background:#fff;
-	border:1px solid #fffffe;
+	background:#121725;
+	border:1px solid #EF366a;
 }
 .content .mainbar .article {
 	margin:0 0 32px;

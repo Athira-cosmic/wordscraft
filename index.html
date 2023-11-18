@@ -28,7 +28,11 @@
       </div>
       <div class="clr"></div>
       <div class="slider">
-        <div id="coin-slider"><img src="images/image1.jpg" width="960" height="360" alt="image" /><span>Welcome to Wordcraft Academy - Where AI Drives Your English Proficiency Journey</span><img src="images/image2.png" width="960" height="360" alt="" /><span>Welcome to Wordcraft Academy - Where AI Drives Your English Proficiency Journey</span><img src="images/image3.png" width="960" height="360" alt="" /><span>Welcome to Wordcraft Academy - Where AI Drives Your English Proficiency Journey</span></div>
+        <div id="coin-slider">
+          <img src="images/image1.jpg" width="960" height="360" alt="image" /><span>Welcome to Wordcraft Academy - Where AI Drives Your English Proficiency Journey</span>
+          <img src="images/image2.png" width="960" height="360" alt="" /><span>Welcome to Wordcraft Academy - Where AI Drives Your English Proficiency Journey</span>
+          <img src="images/image3.png" width="960" height="360" alt="" /><span>Welcome to Wordcraft Academy - Where AI Drives Your English Proficiency Journey</span>
+        </div>
         <div class="clr"></div>
       </div>
       <div class="clr"></div>
@@ -137,5 +141,17 @@
     </div>
   </div>
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var images = document.querySelectorAll('#coin-slider img');
+    var currentImageIndex = 0;
+    function showNextImage() {
+      images[currentImageIndex].style.display = 'none';
+      currentImageIndex = (currentImageIndex + 1) % images.length; 
+      images[currentImageIndex].style.display = 'block'; 
+    }
+    setInterval(showNextImage, 3000); 
+  });
+</script>
 </body>
 </html>
