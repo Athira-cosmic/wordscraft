@@ -20,6 +20,7 @@ html, .main {
 	width:100%;
 	font-size:0;
 	line-height:0;
+	
 }
 h2 {
 	margin:8px 0;
@@ -31,6 +32,7 @@ h2 {
 p {
 	margin:8px 0;
 	padding:0 0 8px 0;
+	text-align: justify;
 }
 a {
 	color:#F13A31;
