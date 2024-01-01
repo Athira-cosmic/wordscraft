@@ -24,11 +24,11 @@
 	float:left;
 	color:#fff;
 	text-indent:-10000px;
-	background:url(../images/slide_p.png) no-repeat center center;
+
 }
 .cs-buttons a.cs-active {
 	color:#fff;
-	background-image:url(../images/slide_a.png);
+	
 }
 /* text in slider */
 .cs-title {
