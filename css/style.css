@@ -34,7 +34,7 @@ p {
 	text-align: justify;
 }
 a {
-	color:#F13A31;
+	color:#ffffff;
 	text-decoration:underline;
 }
 .header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar {
@@ -98,7 +98,7 @@ h1 small {
 	font-weight:bold;
 }
 .rss a {
-	color:#f03872;
+	color:#933c57;
 	text-decoration:none;
 }
 .rss a:hover {
@@ -324,11 +324,6 @@ p.infopost a {
 	color:#fffffe;
 	padding-bottom:24px;
 }
-.fbg img.gal {
-	margin:0 8px 8px 0;
-	padding:0;
-	border:none;
-}
 .fbg .col {
 	margin:0;
 	float:left;
@@ -411,42 +406,7 @@ ol li textarea {
 ol li .send {
 	margin:16px 0 0 0;
 }
-.searchform {
-	margin:0 0 12px;
-	padding:0;
-	float:left;
-}
-#formsearch {
-	margin:0;
-	padding:16px 20px;
-	width:auto;
-	height:30px;
-}
-#formsearch span {
-	display:block;
-	margin:0;
-	padding:0;
-	float:left;
-	background:url(../images/search_bg.gif) no-repeat left top;
-}
-#formsearch input.editbox_search {
-	margin:0;
-	padding:8px 6px;
-	float:left;
-	width:174px;
-	font-size:12px;
-	line-height:14px;
-	color:#aeaeae;
-	background:none;
-	outline:none;
-	border:none;
-}
-#formsearch input.button_search {
-	margin:0;
-	padding:0;
-	border:none;
-	float:left;
-}
+
 .footer {
 	background:#363636;
 }
