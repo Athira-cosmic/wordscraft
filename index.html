@@ -1,12 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>WordCraft</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/cufon-georgia.js"></script>
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/coin-slider.min.js"></script>
@@ -15,7 +14,7 @@
 <div class="main">
   <div class="header">
     <div class="logo" style="text-align: left;">
-      <img src="images/logo.png" width="145" height="135" alt="image" />
+      <img src="images/logo.png" width="70%" height="70%" alt="image" style="margin: 15px; padding: 3px;"/>
       </div>
     <div class="header_resize">
       <div class="menu_nav">
@@ -26,14 +25,15 @@
         </ul>
       </div>
       <div class="logo">
-        <h1><a href="index.html">Words<span>Craft</span></a></h1>
+        <h1><a href="index.html">Word<span>craft</span></a></h1>
+        
       </div>
       <div class="clr"></div>
       <div class="slider">
         <div id="coin-slider">
-          <img src="images/image2.png" width="960" height="360" alt="image" /><span>Welcome to Wordcraft Academy - Where AI Drives Your English Proficiency Journey</span>
           <img src="images/image1.jpg" width="960" height="360" alt="image" /><span>Welcome to Wordcraft Academy - Where AI Drives Your English Proficiency Journey</span>
-          <img src="images/image3.jpg" width="960" height="360" alt="image" /><span>Welcome to Wordcraft Academy - Where AI Drives Your English Proficiency Journey</span>
+          <img src="images/image2.png" width="960" height="360" alt="image" /><span>Welcome to Wordcraft Academy - Where AI Drives Your English Proficiency Journey</span>
+          <img src="images/image3.png" width="960" height="360" alt="image" /><span>Welcome to Wordcraft Academy - Where AI Drives Your English Proficiency Journey</span>
         </div>
         <div class="clr"></div>
       </div>
@@ -115,42 +115,20 @@
       <div class="col c3">
         <h2><span>Contact</span> Us</h2>
         <p>For any queries</p>
-        <p class="contact_info"> <span>Address:</span><br />
-          <span>Phone/Whatsapp:+919778150194</span><br />
-          <span>E-mail:</span> <a href="javascript:void()"
-          class="mailToLink" 
-         data-mail="wordcraftacademy.co@gmail.com">wordcraftacademy.co@gmail.com </a></p>
+        <p class="contact_info"> <!--<span>Address:</span><br />-->
+          <span>Phone/Whatsapp:<a href="tel:+919778150194">+919778150194</a></span><br />
+          <span>E-mail:</span> <a href="mailto:wordcraftacademy.co@gmail.com">wordcraftacademy.co@gmail.com </a></p>
       </div>
       <div class="clr"></div>
     </div>
   </div>
   <div class="footer">
     <div class="footer_resize">
-      <p class="lf">Copyright &copy; <a href="#">xyz</a>. All Rights Reserved</p>
-      <!--<p class="rf">Design by <a target="_blank" href="http://www.dreamtemplate.com/">DreamTemplate</a></p>-->
+      <p class="lf">Copyright &copy; <a href="#"></a>. All Rights Reserved</p>
+      <!--<p class="rf">Design by <a target="_blank" href="#">gourynairs</a></p>-->
       <div style="clear:both;"></div>
     </div>
   </div>
 </div>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var images = document.querySelectorAll('#coin-slider img');
-    var currentImageIndex = 0;
-    function showNextImage() {
-      images[currentImageIndex].style.display = 'none';
-      currentImageIndex = (currentImageIndex + 1) % images.length; 
-      images[currentImageIndex].style.display = 'block'; 
-    }
-    setInterval(showNextImage, 3000); 
-  });
-</script>
-<script>
-  $('.mailToLink').on('click', function(){
-        mailto=$(this).data('mail');
-        w=window.open('','_blank','',true);
-        w.location.href='mailto:'+mailto;
-        w.focus();
-    });
-</script>
 </body>
 </html>

@@ -3,9 +3,9 @@ body {
 	margin:0;
 	padding:0;
 	width:100%;
-	color:#fc953e;
+	color:#f5adb5;
 	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
-	background:#EF366a url(../images/main_bg.gif) repeat-x left top;
+	background: #e84759 url(../images/main_bg.gif) repeat-x left top;
 }
 html, .main {
 	padding:0;
@@ -26,7 +26,7 @@ h2 {
 	padding:8px 0;
 	font-size:25px;
 	font-weight:normal;
-	color:#353c46;
+	color:#fbc599;
 }
 p {
 	margin:8px 0;
@@ -63,7 +63,7 @@ h1 {
 	text-transform:none;
 }
 h1 a, h1 a:hover {
-	color:#f03872;
+	color:#e84759;
 	text-decoration:none;
 }
 h1 span {
@@ -77,7 +77,7 @@ h1 small {
 	line-height:1.2em;
 	letter-spacing:normal;
 	text-transform:none;
-	color:#121725;
+	color:#ffffff;
 }
 .slider {
 	padding:0;
@@ -87,27 +87,7 @@ h1 small {
 	float:right;
 	width:auto;
 }
-.rss p {
-	margin:0;
-	padding:0;
-	float:right;
-	width:auto;
-	color:#fc953e;
-	font-size:13px;
-	line-height:1.5em;
-	font-weight:bold;
-}
-.rss a {
-	color:#933c57;
-	text-decoration:none;
-}
-.rss a:hover {
-	text-decoration:underline;
-}
-.rss img {
-	margin:-3px 0 -3px 6px;
-	border:none;
-}
+
 .menu_nav {
 	margin:0 auto;
 	padding:68px 0 0;
@@ -163,7 +143,7 @@ h1 small {
 	padding-bottom:0;
 	font-size:33px;
 	line-height:1.2em;
-	color:black;
+	color:#90202c;
 }
 .content .mainbar div.img {
 	padding:12px 0 0;
@@ -204,7 +184,7 @@ ul.sb_menu, ul.ex_menu {
 	margin:0;
 	padding:0;
 	list-style:none;
-	color:#28ecfa;
+	color:#54292f;
 }
 ul.sb_menu li, ul.ex_menu li {
 	margin:0;
@@ -409,6 +389,7 @@ ol li .send {
 
 .footer {
 	background:#363636;
+
 }
 .footer_resize {
 	margin:0 auto;
@@ -433,17 +414,21 @@ ol li .send {
 	text-decoration:underline;
 	background-color:transparent;
 }
-.footer_resize a:hover {
-	color:#fa5928;
-	background-color:transparent;
-	text-decoration:none;
-}
+
 .footer_resize .lf {
 	float:left;
 }
 .footer_resize .rf {
 	float:right;
 }
+
 a {
 	outline:none;
+}
+@media only screen and(max-width:600px){
+	body {
+		
+		width:100%;
+	
+	}
 }
